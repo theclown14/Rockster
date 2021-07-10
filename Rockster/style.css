@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.sidebar__components {
+	width: 150px;
+	background-color: #3A63DE;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*
+.sidebar__components .sidebar__component:nth-child(6) {
+	background: #000000;
+	opacity: 0.15;
+}
+*/
+
+.sidebar__component_logo {
+	height: 112px;
+
+}
+
+.sidebar__component {
+	height: 150px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sidebar__component_scroll {
+	height: 83px;
+
+}
+
+.component__title {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: center;
+
+	/* White */
+
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+.component__img {
+	width: 38px;
+
+	height: 38px;
+	padding-top: 45px;
+	opacity: 0.7;
+
+	margin-bottom: 22px;
+}
+
+.sidebar__logo {
+	padding-top: 32px
+}
+
+.chat_active {
+	opacity: 1;
+}
+
+.container {
+	width: 380px;
+
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.search__input {
+	border: none;
+	outline: none;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	width: 62px;
+	margin-left: 7px;
+}
+
+.search__img {
+	width: 17px;
+	height: 17px;
+
+	margin-top: 3px;
+}
+
+.search__wrapper {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 266px 30px 25px;
+}
+
+.search {
+	border: #E1E3E5 solid 1px;
+	border-top: 0;
+	border-left: 0;
+}
+
+.teams__title {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* Body Light */
+
+	color: #818386;
+}
+
+.teams__name {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* Heading */
+
+	color: #333333;
+
+	margin-top: 6px;
+}
+
+.teams__message {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height */
+
+
+	/* Body Light */
+
+	color: #818386;
+}
+
+.teams__item {
+	width: 365px;
+	padding: 24px 0px 23px 15px;
+	display: flex;
+	flex-direction: row;
+
+	border-bottom: 1px solid #E1E3E5;
+}
+
+.teams__item:first-child {
+	padding-top: 10px;
+}
+
+.teams__item__wrapper {
+	margin-left: 15px;
+}
+
+.search__container {
+	width: 380px;
+	height: 80px;
+}
+
+.title_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px 2px 24px;
+}
+
+.teams__message_count {
+	margin-left: 32px;
+	margin-top: -4px;
+}
+
+.people__title {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* Body Light */
+
+	color: #818386;
+}
+
+.people__item {
+	padding: 21px 0px 24px 24px;
+	display: flex;
+	flex-direction: row;
+
+	border-bottom: 1px solid #E1E3E5;
+}
+
+.people__item:first-child {
+	padding-top: 10px;
+}
+
+.people__item__wrapper {
+	margin-left: 16px;
+}
+
+.people__name {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	margin-top: 6px;
+	margin-left: -3px;
+	/* Heading */
+
+	color: #333333;
+
+}
+
+.people__message {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height */
+
+
+	/* Body Light */
+
+	color: #818386;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.teams {
+	border: 1px solid #E1E3E5;
+	border-top: none;
+	border-bottom: none;
+	border-left: 0;
+
+}
+
+
+
+.teams__avatar {
+	padding-left: 10px
+}
+
+.people {
+	border: 1px solid #E1E3E5;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+
+	margin-top: -8px;
+}
+
+
+
+.chat__header {
+	width: 909px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+
+	border: 1px solid #E1E3E5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+
+}
+
+.header__user__name {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+
+	margin-top: 15px;
+}
+
+.chat__header__user {
+	display: flex;
+	flex-direction: row;
+	align-items: center
+}
+
+.header__user__avatar {
+	margin: 14px 16px 14px 30px;
+}
+
+.chat__header__tools {
+	display: flex;
+
+	margin-right: -4px;
+}
+
+.chat__header__plus {
+	margin-right: 35px;
+}
+
+.chat__header__more {
+	margin-right: 30px;
+}
+
+.chat__item__message {
+	max-width: 417px;
+	padding: 15px 20px;
+	background-color: #3A63DE;
+	border-radius: 8px 8px 8px 1px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* White */
+
+	color: #FFFFFF;
+}
+
+.chat__item__message_doc {
+	max-width: 417px;
+	padding: 20px 20px 23px 20px;
+	background-color: rgba(58, 99, 222, 0.1);
+	border-radius: 8px 8px 8px 1px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* White */
+
+	color: #333333;
+}
+
+.chat__item__message_right {
+	max-width: 417px;
+	padding: 20px 25px;
+	background-color: #F2F5FA;
+	border-radius: 8px 8px 1px 8px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* White */
+
+	color: #595F69;
+}
+
+.chat__item__message_right_last {
+	padding: 18px 20px;
+}
+
+.chat__messages__item {
+	display: flex;
+	margin: 22px 0px 46px 30px;
+}
+
+
+
+.chat__item__avatar {
+	margin-right: 8px;
+	margin-top: 7px;
+}
+
+.chat__item__avatar_download {
+	margin-right: 10px;
+	margin-top: 80px;
+}
+
+.chat__item__avatar_right {
+	margin-left: 8px;
+	margin-top: 30px;
+}
+
+.chat__item__avatar_right_last {
+	margin-left: 8px;
+	margin-top: 5px;
+}
+
+.chat__item__more {
+	margin-left: 16px;
+}
+
+.chat__item__more_right {
+	margin-right: 16px;
+}
+
+.chat__item__more_right_last {}
+
+.chat__item__tools_right {
+	margin-right: 14px;
+}
+
+
+.chat__item__date {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: right;
+
+	/* Body Light */
+
+	color: #818386;
+
+
+	position: relative;
+	width: 66px;
+	height: 20px;
+	right: 100px;
+	bottom: -65px;
+}
+
+.chat__item__date_one {
+	position: relative;
+	width: 66px;
+	height: 20px;
+	right: 105px;
+	bottom: -65px;
+}
+
+.chat__item__date__download {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: right;
+
+	/* Body Light */
+
+	color: #818386;
+
+
+	position: relative;
+	width: 66px;
+	height: 20px;
+	right: 105px;
+	bottom: -137px;
+}
+
+.chat__item__date_two {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: right;
+
+	/* Body Light */
+
+	color: #818386;
+
+
+	position: relative;
+	width: 62px;
+	height: 20px;
+	right: 100px;
+	bottom: -88px;
+}
+
+.chat__item__date_right {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: right;
+
+	/* Body Light */
+
+	color: #818386;
+
+
+	position: relative;
+	width: 62px;
+	height: 20px;
+	right: -100px;
+	bottom: -65px;
+}
+
+.chat__item__date_right_one {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: right;
+
+	/* Body Light */
+
+	color: #818386;
+
+
+	position: relative;
+	width: 62px;
+	height: 20px;
+	right: -105px;
+	bottom: -88px;
+}
+
+
+
+
+
+.chat__messages__item_right {
+	display: flex;
+	margin: 0px 27px 0px 0px;
+	justify-content: flex-end;
+
+	margin-bottom: 92px;
+}
+
+.chat__messages__item_right_last {
+	display: flex;
+	margin: 0px 27px 0px 0px;
+	justify-content: flex-end;
+
+	margin-bottom: 61px;
+}
+
+.chat__messages__item_right:nth-child(2) {
+	margin-bottom: 0;
+}
+
+
+
+.chat__message__teplate_more {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	text-align: center;
+	/* Accent */
+
+	color: #3A63DE;
+
+}
+
+.chat__message__templates {
+	display: flex;
+	margin: 13px 112px 0px 0px;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 26px;
+}
+
+.chat__message__template {
+	margin-right: 17px;
+}
+
+
+.chat__message_more_container {
+	background-color: rgba(58, 99, 222, 0.1);
+	width: 48px;
+	height: 48px;
+	padding: 14px;
+	box-sizing: border-box;
+
+	margin-right: -20px;
+}
+
+.chat__type {
+	border: #E1E3E6 solid 1px;
+	border-right: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.chat__type__input {
+	outline: none;
+	border: none;
+
+
+}
+
+.chat__type__input::placeholder {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	align-items: center;
+
+	/* Body Light */
+
+	color: #818386;
+}
+
+.chat__type__attachment {
+	margin-right: 20px;
+}
+
+.chat__type__container {
+	padding: 30px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.chat__type__emoji {
+	margin-right: 22px;
+}
+
+.chat__type__send_button {
+	width: 56px;
+	height: 56px;
+	background-color: #3A63DE;
+	border: none;
+	margin: 10px;
+}
+
+.kb {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	/* Accent */
+
+	color: #3A63DE;
+
+}
+
+
+
+.chat__download__2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding-left: 20px;
+
+	width: 258px;
+	height: 44px;
+
+	box-sizing: border-box;
+	background: #3A63DE;
+	border-radius: 0px 0px 8px 1px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* White */
+
+	color: #FFFFFF;
+}
+
+.chat__download__img {
+	margin-left: 122px;
+	margin-right: 24px;
+
+	width: 16px;
+	height: 16px;
+}
+
+.component__img__chat {
+	padding-top: 50px;
+}
+
+.sidebar__scroll {
+	margin-top: -14px;
+}
+
+.teams__add {
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+
+.people__add {
+	margin-right: 10px;
+}
+
+.chat__item__message__emoji {
+	margin-top: 1px;
+	margin-left: 2px;
+	padding-right: 7px;
+}
+
+.chat__messages__item_three {
+	margin-top: -4px;
+}
+
+.chat__item__avatar_three {
+	margin-top: 30px;
+}
+
+.chat__messages__item_download {
+	margin-top: 107px;
+}
+
+.chat__download {
+	width: 257px;
+}
+
+.people__message_count {
+	margin-left: 42px;
+}
+
+.people__name_jane {
+	margin-left: 0px;
+}
+
+.people__name_jacob {
+
+	margin-left: 0px;
+
+}
+
+.chat__item__date_right_two {
+	position: relative;
+	width: 62px;
+	height: 20px;
+	right: -130px;
+	bottom: -88px;
+}
